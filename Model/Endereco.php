@@ -1,5 +1,5 @@
-<<?php 
-
+<?php 
+require_onde("Usuario.php")
 
 /**
 * 
@@ -15,6 +15,14 @@ private $estado;
 private $complemento;
 private $cep;
 private $usuario;
+q
+
+
+public function __contruct(){
+
+    $this->usuario = new Usuario();
+}
+
 
 public function getCod()
 {
